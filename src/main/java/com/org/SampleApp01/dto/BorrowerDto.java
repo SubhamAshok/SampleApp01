@@ -1,0 +1,24 @@
+package com.org.SampleApp01.dto;
+
+public class BorrowerDto {
+
+	private int borrowerId;
+	
+	private String borrowerName;
+
+	public int getBorrowerId() {
+		return borrowerId;
+	}
+
+	public void setBorrowerId(int borrowerId) {
+		this.borrowerId = borrowerId;
+	}
+
+	public String getBorrowerName() {
+		return borrowerName;
+	}
+
+	public void setBorrowerName(String borrowerName) {
+		this.borrowerName = borrowerName;
+	}
+}
